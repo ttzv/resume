@@ -1,0 +1,12 @@
+
+body{
+    background: rgb(12, 81, 146);
+}
+
+.content{
+    overflow: auto;
+}
+
+.entry{
+    padding: 1rem;
+}

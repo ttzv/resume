@@ -7,143 +7,273 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    <title>Curriculum Vitae</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="asset/style.css">
+    <link rel="stylesheet" href="asset/style_print.css">
     <script src="https://kit.fontawesome.com/a27623e367.js" crossorigin="anonymous"></script>
+    <title>Resume</title>
 </head>
 <body>
-    <div class="container-fluid">
-        <div class="row heading">
-            <div class="col-sm-3 d-flex justify-content-center">
-                <div class="picture-frame mx-1 my-1">
-
+        <div class="col-sm-3 side-content-bg"></div>
+        <div class="col-sm-9 cv-content-bg"></div>
+        <div class="container-fluid p-4 d-flex justify-content-center">
+        <div class="a4">
+            <div class="row heading outer-shadow">
+                <div class="col-sm-3 d-flex justify-content-center">
+                    <div class="picture-frame mx-1 my-1">
+                        <img src="NEWAV.png" alt="" srcset="" height="150px">
+                    </div>
+                </div>
+                <div class="col-sm-9 pl-5 d-flex align-items-center">
+                    <div class="personal-info">
+                        <h1 class="name">
+                            Name Surname
+                        </h1>
+                        <h5>
+                            Position
+                        </h5>
+                    </div>
                 </div>
             </div>
-            <div class="col-sm-9 pl-5 d-flex align-items-center">
-                <div class="personal-info">
-                    <h1 class="name">
-                        Name Surname
-                    </h1>
-                    <h5>
-                        Position
-                    </h5>
-                </div>
-            </div>
-        </div>
-        <div class="row cv-content">
-            <div class="col-sm-3 sideinfo">
-                <div class="side-content">
-                    <!-- SOCIAL -->
-                    <div class="row">
-                        <div class="col-sm-2 d-flex align-items-center">
-                            <i class="fas fa-users"></i>
+            <div class="row cv-content">
+                <div class="col-sm-3 sideinfo">
+                    <div class="side-content">
+                        <!-- SOCIAL -->
+                        <div class="row justify-content-center">
+                            <div class="col-sm-2 d-flex align-items-center">
+                                <i class="fas fa-users icon-large"></i>
+                            </div>
+                            <div class="col-sm-10">
+                                <h3>Social info</h3>
+                            </div>
+                            <div class="side-sub-content pl-4">
+                                <!-- GITHUB -->
+                                <div class="row">
+                                    <div class="col-sm-2">
+                                        <i class="fab fa-github-square icon-small"></i>
+                                    </div>
+                                    <div class="col-sm-9">
+                                        <a href="https://github.com/ttzv">github.com/ttzv</a>
+                                        <br>
+                                        <a href="https://github.com/ttzv-training-repos">github.com/ttzv-training-repos</a>
+                                    </div>
+                                </div>
+                                <!-- PORTFOLIO -->
+                                <div class="row">
+                                    <div class="col-sm-2">
+                                        <i class="fas fa-globe icon-small"></i>
+                                    </div>
+                                    <div class="col-sm-9">
+                                        <a href="portfolio.html">www.porfoliopage.exmpl</a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-sm-10">
-                            <h3>Social info</h3>
+                        <!-- EDUCATION -->
+                        <div class="row justify-content-center">
+                            <div class="col-sm-2 d-flex align-items-center">
+                                <i class="fas fa-book-open icon-large"></i>
+                            </div>
+                            <div class="col-sm-10">
+                                <h3>Education</h3>
+                            </div>
+                            <div class="side-sub-content">
+                                <div class="pt-3 ml-4">
+                                    <div class="edu-entry pl-2">
+                                        <p class="year">
+                                            2013 - 2017
+                                        </p>  
+                                        <p class="school-name">
+                                            University of Bielsko-Biala
+                                        </p> 
+                                        <p class="edu-info-1">
+                                            Bachelor of Engineering
+                                        </p>
+                                        <p class="edu-info-2">
+                                            Automation and Robotics
+                                        </p>
+                                        <p class="edu-info-3">
+                                            Mechatronics
+                                        </p>  
+                                    </div>
+                                    <div class="edu-entry pl-2">
+                                        <p class="year">
+                                            2010 - 2013
+                                        </p>  
+                                        <p class="school-name">
+                                            II Liceum Ogólnokształcące im. Mikołaja Kopernika w Cieszynie
+                                        </p> 
+                                        <p class="edu-info-1">
+                                            secondary school
+                                        </p>
+                                        <p class="edu-info-2">
+                                            mathematics and IT profile
+                                        </p> 
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="side-sub-text">
-                            <p>lorem ipsum</p>
-                            <p></p><i class="fab fa-linkedin"></i></p>
-                            <p></p><i class="fab fa-github-square"></i></p>
-                            <p></p><i class="fas fa-globe"></i></p>
+                        <!-- CONTACT -->
+                        <div class="row justify-content-center">
+                            <div class="col-sm-2 d-flex align-items-center">
+                                <i class="fas fa-map-marker-alt icon-large"></i>
+                            </div>
+                            <div class="col-sm-10">
+                                <h3>Contact</h3>
+                            </div>
+                            <div class="side-sub-content pl-4">
+                                <div class="row">
+                                    <div class="col-sm-2">
+                                        <i class="fas fa-at  icon-small"></i>
+                                    </div>
+                                    <div class="col-sm-9">
+                                        tomasz.zwak@gmail.com
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-2">
+                                        <i class="fas fa-phone-square-alt icon-small"></i>
+                                    </div>
+                                    <div class="col-sm-9">
+                                        +48 501 346 132
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <!-- EDUCATION -->
-                    <div class="row">
-                        <div class="col-sm-2 d-flex align-items-center">
-                            <i class="fas fa-book-open"></i>
+                </div>
+                <div class="col-sm-9 main-content p-3">
+                    <!-- ABOUT -->
+                    <div class="row py-3">
+                        <div class="col-sm-1 d-flex align-items-center">
+                            <i class="far fa-question-circle icon-large"></i>
                         </div>
                         <div class="col-sm-10">
-                            <h3>Education</h3>
-     
+                            <h3>About me</h3>
                         </div>
-                        <div class="side-sub-text">
-                            <p>lorem ipsum</p>
+                        <div class="sub-text">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A, adipisci id! Aliquam, minima id! Pariatur, ut ea. Minima, eligendi praesentium! Cum hic perspiciatis voluptatibus ut nobis at vel laboriosam quas.</p>
+                        </div>
+                    </div>
+                    <!-- EXPERIENCE -->
+                    <div class="row py-3">
+                        <div class="col-sm-1 d-flex align-items-center">
+                            <i class="fas fa-briefcase icon-large"></i>
+                        </div>
+                        <div class="col-sm-10">
+                            <h3>Experience</h3>
+                        </div>
+                        <div class="sub-text timeline-container">
+                             <ul class="timeline">
+                                 <li class="entry pb-5" data-date="2018 - currently">
+                                    <h3>Atal S.A.</h3>
+                                    <h6>IT Specialist</h5>
+                                    <p>Helpdesk Support</p>
+                                    <p>Management of IT infrastructure</p>
+                                    <p>Assistance in domain and software administration</p> 
+                                 </li>
+                                 <li class="entry" data-date="2017 - 2018">
+                                    <h3>DaeDong Systems Poland Sp z o.o.</h3>
+                                    <h6>Production assistant</h6>
+                                    <p>Supervision of the production process</p>
+                                    <p>Creating documentation</p>
+                                    <p>Assistance in team management</p>
+                                 </li>
+                             </ul>
+                        </div>
+                    </div>
+                    <!-- <div class="pagebreak"></div> -->
+                    <!-- SKILLS -->
+                    <div class="row">
+                        <div class="col-sm-1 d-flex align-items-center">
+                            <i class="fas fa-book icon-large"></i>
+                        </div>
+                        <div class="col-sm-10">
+                            <h3>Skills</h3>
+                        </div>
+                        <div class="sub-text w-100">
                             <ul>
-                                <li>entry1</li>
-                                <li>entry2</li>
+                                <li>Ability of practical application in following technologies:</li>
+                                <ul>
+                                    <li>
+                                        <div class="row pt-2">
+                                            <div class="col-sm-1">
+                                                <p><i class="fab fa-js-square icon-small"></i></p>
+                                            </div>
+                                            <div class="col-sm-9">
+                                                <p>
+                                                    Javascript ES6
+                                                </p> 
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-sm-1">
+                                                <p><i class="fab fa-css3 icon-small"></i></p>
+                                            </div>
+                                            <div class="col-sm-9">
+                                                CSS3
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-sm-1">
+                                                <p><i class="fab fa-html5 icon-small"></i></p>
+                                            </div>
+                                            <div class="col-sm-9"> 
+                                                HTML5
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-sm-1">
+                                                <p>
+                                                    <img class="csharp" src="asset/csharp.png" alt="" srcset="">
+                                                </p>
+                                            </div>
+                                            <div class="col-sm-9">
+                                                C#
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-sm-1">
+                                                <p>
+                                                    <img class="rails" src="asset/rails.png" alt="" srcset="">
+                                                </p>
+                                            </div>
+                                            <div class="col-sm-9">
+                                                Ruby on Rails
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-sm-1">
+                                                <p><i class="fab fa-java icon-small"></i></p>
+                                            </div>
+                                            <div class="col-sm-9">
+                                                Java
+                                            </div>
+                                        </div>
+                                    </li>
+
+
+                                </ul>
                             </ul>
                         </div>
                     </div>
-                    <!-- CONTACT -->
-                    <div class="row">
-                        <div class="col-sm-2 d-flex align-items-center">
-                            <i class="fas fa-map-marker-alt"></i>
-                        </div>
-                        <div class="col-sm-10">
-                            <h3>Contact</h3>
-                        </div>
-                        <div class="side-sub-text">
-                            <p>lorem ipsum</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="contact">
-
                 </div>
             </div>
-            <div class="col-sm-9 main-content p-5">
-                <!-- ABOUT -->
-                <div class="row py-3">
-                    <div class="col-sm-1 d-flex align-items-center">
-                        <i class="far fa-question-circle"></i>
-                    </div>
-                    <div class="col-sm-10">
-                        <h3>About me</h3>
-                    </div>
-                    <div class="sub-text">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A, adipisci id! Aliquam, minima id! Pariatur, ut ea. Minima, eligendi praesentium! Cum hic perspiciatis voluptatibus ut nobis at vel laboriosam quas.</p>
-                    </div>
-                </div>
-                <!-- EXPERIENCE -->
-                <div class="row py-3">
-                    <div class="col-sm-1 d-flex align-items-center">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <div class="col-sm-10">
-                        <h3>Experience</h3>
-                    </div>
-                    <div class="sub-text py-1 pl-5">
-                         <ul class="timeline">
-                             <li class="entry" data-date="2017 - currently">
-                                <h3>Entry</h3>
-                                <p>duty1</p>
-                                <p>duty2</p>
-                                <p>duty3</p> 
-                             </li>
-                             <li class="entry" data-date="2019">
-                                <h3>Entry</h3>
-                             </li>
-                         </ul>
-                    </div>
-                </div>
-                <!-- SKILLS -->
-                <div class="row py-3">
-                    <div class="col-sm-1 d-flex align-items-center">
-                        <i class="fas fa-book"></i>
-                    </div>
-                    <div class="col-sm-10">
-                        <h3>Skills</h3>
-                    </div>
-                    <div class="sub-text">
-                        <p>lorem ipsum</p>
-                        <p><i class="fab fa-js-square"></i></p>
-                        <p><i class="fab fa-css3"></i></p>
-                        <p><i class="fab fa-html5"></i></p>
-                        <p><i class="fab fa-java"></i></p>
-                        <p>
-                            <img class="csharp" src="asset/csharp.png" alt="" srcset="">
-                        </p>
-                        <p>
-                            <img class="rails" src="asset/rails.png" alt="" srcset="">
-                        </p>
-                    </div>
-                </div>
+            <div class="row footing d-flex justify-content-center outer-shadow">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut magni exercitationem necessitatibus blanditiis officia accusantium nemo libero reprehenderit, nam asperiores tempora enim eius a. Minima illum dolor placeat dicta saepe.</p>
             </div>
-        </div>
-        <div class="row footing d-flex justify-content-center">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut magni exercitationem necessitatibus blanditiis officia accusantium nemo libero reprehenderit, nam asperiores tempora enim eius a. Minima illum dolor placeat dicta saepe.</p>
         </div>
     </div>
+    <script src="asset/script.js"></script>
 </body>
 </html>
