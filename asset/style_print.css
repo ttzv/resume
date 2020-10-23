@@ -29,6 +29,8 @@
         right: 0;
         height: 100%;
         background-repeat: repeat-y;
+        border-left: 1px solid rgb(9, 57, 106);
+
     }
 
     .heading{
@@ -51,7 +53,6 @@
       }
 
     .sideinfo{
-        border-right: 1px solid rgb(9, 57, 106);
         background-color: transparent;
     }
 

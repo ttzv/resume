@@ -28,11 +28,11 @@ body, html{
 }
 
 .icon-large{
-    font-size: 1.8rem;
+    font-size: 1.9rem;
 }
 
 .icon-small{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 
 .heading{
@@ -221,11 +221,6 @@ a:hover{
 .edu-info-3{
     font-size: 0.8rem;
     color: rgb(155, 155, 155);
-}
-
-.edu-entry{
-    border-bottom: 1px dashed rgb(12, 81, 146);
-    border-left: 1px dashed rgb(12, 81, 146);
 }
 
 .outer-shadow{
