@@ -16,6 +16,7 @@ body, html{
     body{
         background: rgb(75,157,235);
         background: linear-gradient(215deg, rgba(75,157,235,1) 0%, rgba(8,34,61,1) 100%);
+        background-attachment: fixed;
     }
 }
 
